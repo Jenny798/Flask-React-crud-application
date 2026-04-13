@@ -1,0 +1,100 @@
+/* 🌐 GLOBAL */
+body {
+  background-color: #f5f7fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 🧭 NAVBAR */
+.navbar {
+  border-radius: 0 0 10px 10px;
+}
+
+/* 📦 CARDS */
+.card {
+  border: none;
+  border-radius: 12px;
+}
+
+/* ✨ JOB CARD HOVER EFFECT */
+.job-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* 📊 STAT CARDS */
+.card h4 {
+  margin: 0;
+}
+
+/* 🔘 BUTTONS */
+button {
+  border-radius: 8px !important;
+}
+
+/* ✏️ EDIT BUTTON */
+.btn-warning {
+  color: #000;
+  font-weight: 500;
+}
+
+/* 🗑 DELETE BUTTON */
+.btn-danger {
+  font-weight: 500;
+}
+
+/* ➕ ADD BUTTON */
+.btn-success {
+  font-weight: 500;
+}
+
+/* 🏷 BADGES */
+.badge {
+  font-size: 0.9rem;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+/* 🪟 MODAL BACKDROP */
+.modal {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* 🪟 MODAL BOX */
+.modal-content {
+  border-radius: 12px;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+/* 🎬 MODAL ANIMATION */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* 📝 INPUTS */
+input,
+select {
+  border-radius: 8px !important;
+}
+
+/* 📭 EMPTY STATE */
+.text-muted h5 {
+  font-weight: 500;
+}
+
+/* 📱 RESPONSIVE */
+@media (max-width: 768px) {
+  .job-card {
+    margin-bottom: 15px;
+  }
+}
